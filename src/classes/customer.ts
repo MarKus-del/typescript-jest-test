@@ -17,7 +17,7 @@ export class IndividalCustomer
     this.cpf = cpf;
   }
   getName(): string {
-    return this.firstName + ' ' + this.firstName;
+    return this.firstName + ' ' + this.lastName;
   }
   getIDN(): string {
     return this.cpf;
