@@ -36,7 +36,6 @@ export class ShoppingCart implements ShoppingCartProtocol {
 
   clear(): void {
     console.log('Carrinho de compras foi limpo...');
-
-    this._items.length === 0;
+    this._items.length = 0;
   }
 }
